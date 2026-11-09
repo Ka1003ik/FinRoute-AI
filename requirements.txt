@@ -1,0 +1,13 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+pandas==3.1.1
+numpy==2.5.4
+scikit-learn==1.9.1
+xgboost==3.4.1
+torch==2.10.0+cu128
+transformers==5.22.2
+accelerate==1.15.0
+matplotlib==3.11.2
+seaborn==0.13.2
+nltk==3.10.4
+joblib==1.6.0
+PyYAML==6.0.3

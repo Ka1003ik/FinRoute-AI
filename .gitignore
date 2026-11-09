@@ -1,0 +1,21 @@
+
+# Python environments and secrets
+.venv/
+venv/
+.env
+
+# Source data and trained model artifacts
+data/raw/
+data/interim/
+data/processed/
+models/
+
+# Generated reports, predictions, comparisons and audits
+outputs/
+
+# Python/build/editor files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.vscode/
