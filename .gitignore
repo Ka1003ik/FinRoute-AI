@@ -1,21 +1,25 @@
-
-# Python environments and secrets
+﻿# Python environments and secrets
 .venv/
 venv/
 .env
 
-# Source data and trained model artifacts
-data/raw/
-data/interim/
-data/processed/
-models/
+# Datasets
+/data/
 
-# Generated reports, predictions, comparisons and audits
-outputs/
+# Trained models and checkpoints
+/models/
 
-# Python/build/editor files
+# Generated outputs and experiment artifacts
+/outputs/
+
+# CODVEDA submission package
+/submission/
+
+# Python caches and build files
 __pycache__/
 *.py[cod]
 .pytest_cache/
 .mypy_cache/
 .vscode/
+.DS_Store
+*.log
