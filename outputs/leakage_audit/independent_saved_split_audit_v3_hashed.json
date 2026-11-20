@@ -1,0 +1,121 @@
+{
+    "project": "FinRoute AI",
+    "dataset_version": "v3",
+    "audit_type": "Independent saved-file audit",
+    "source_dataset": "cfpb_2026_modeling_v2.csv",
+    "source_dataset_sha256": "b3149fc69992318211a1e8cc8c24767492a51287902ff3fa11d8de1434cba71a",
+    "saved_split_sha256": {
+        "train": "2f670220ad18dafdb39f75d1844654c4b6b424f91b808f579ebb1ede2583dc2f",
+        "validation": "4c4082ca89a2018f26774fd2cc8b4b1f67117bd36e73319e3fd678aaf9569ddf",
+        "test": "cde1cb698d57210ef70d0b32c29f4adb009389ab27947613ea0f5e1b27e08fe2"
+    },
+    "component_threshold": "Jaccard = 1.00",
+    "component_column": "component_100",
+    "source_records": 121114,
+    "unique_narrative_groups": 108902,
+    "components": 108369,
+    "product_categories": 11,
+    "partitions": {
+        "train": {
+            "records": 96890,
+            "dataset_percentage": 79.999,
+            "component_count": 86532,
+            "unique_narrative_groups": 86967,
+            "product_category_count": 11,
+            "complete_row_sha256_match": true,
+            "missing_row_occurrences": 0,
+            "unexpected_row_occurrences": 0,
+            "product_distribution_match": true,
+            "product_distribution": {
+                "Checking or savings account": 17065,
+                "Credit card": 16318,
+                "Credit reporting or other personal consumer reports": 3887,
+                "Debt collection": 32084,
+                "Debt or credit management": 879,
+                "Money transfer, virtual currency, or money service": 7845,
+                "Mortgage": 6217,
+                "Payday loan, title loan, personal loan, or advance loan": 3473,
+                "Prepaid card": 1169,
+                "Student loan": 3240,
+                "Vehicle loan or lease": 4713
+            }
+        },
+        "validation": {
+            "records": 12112,
+            "dataset_percentage": 10.0005,
+            "component_count": 10915,
+            "unique_narrative_groups": 10965,
+            "product_category_count": 11,
+            "complete_row_sha256_match": true,
+            "missing_row_occurrences": 0,
+            "unexpected_row_occurrences": 0,
+            "product_distribution_match": true,
+            "product_distribution": {
+                "Checking or savings account": 2133,
+                "Credit card": 2040,
+                "Credit reporting or other personal consumer reports": 486,
+                "Debt collection": 4011,
+                "Debt or credit management": 110,
+                "Money transfer, virtual currency, or money service": 981,
+                "Mortgage": 777,
+                "Payday loan, title loan, personal loan, or advance loan": 434,
+                "Prepaid card": 146,
+                "Student loan": 405,
+                "Vehicle loan or lease": 589
+            }
+        },
+        "test": {
+            "records": 12112,
+            "dataset_percentage": 10.0005,
+            "component_count": 10922,
+            "unique_narrative_groups": 10970,
+            "product_category_count": 11,
+            "complete_row_sha256_match": true,
+            "missing_row_occurrences": 0,
+            "unexpected_row_occurrences": 0,
+            "product_distribution_match": true,
+            "product_distribution": {
+                "Checking or savings account": 2133,
+                "Credit card": 2039,
+                "Credit reporting or other personal consumer reports": 486,
+                "Debt collection": 4010,
+                "Debt or credit management": 110,
+                "Money transfer, virtual currency, or money service": 981,
+                "Mortgage": 777,
+                "Payday loan, title loan, personal loan, or advance loan": 434,
+                "Prepaid card": 147,
+                "Student loan": 405,
+                "Vehicle loan or lease": 590
+            }
+        }
+    },
+    "cross_partition_checks": {
+        "cross_partition_component_overlap_count": 0,
+        "cross_partition_unique_narrative_overlap_count": 0,
+        "cross_partition_exact_row_overlap_count": 0
+    },
+    "dataset_conservation": {
+        "source_records": 121114,
+        "saved_partition_records": 121114,
+        "exact_source_row_conservation": true,
+        "missing_row_occurrences": 0,
+        "unexpected_row_occurrences": 0,
+        "row_fingerprint_algorithm": "SHA-256",
+        "row_fingerprint_scope": "All columns serialized using pandas to_csv conventions"
+    },
+    "final_checks": {
+        "all_three_saved_files_audited": true,
+        "complete_rows_match_expected_source_rows": true,
+        "all_product_distributions_match": true,
+        "all_components_remain_intact": true,
+        "all_unique_narratives_remain_intact": true,
+        "no_identical_complete_rows_cross_partitions": true,
+        "all_original_records_preserved": true,
+        "raw_narratives_exported": false,
+        "complaint_ids_exported": false,
+        "source_dataset_modified": false,
+        "split_files_modified": false,
+        "test_set_evaluated": false,
+        "model_retrained": false
+    }
+}

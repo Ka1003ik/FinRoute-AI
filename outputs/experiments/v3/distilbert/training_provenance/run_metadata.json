@@ -1,0 +1,38 @@
+{
+  "dataset_version": "v3",
+  "audit_report_sha256": "ebfc3632e5ae7ea61a77b27962ad143de75cfbc7b8834eb7f9bf8ccb290ff2a9",
+  "split_sha256": {
+    "train": "2f670220ad18dafdb39f75d1844654c4b6b424f91b808f579ebb1ede2583dc2f",
+    "validation": "4c4082ca89a2018f26774fd2cc8b4b1f67117bd36e73319e3fd678aaf9569ddf",
+    "test": "cde1cb698d57210ef70d0b32c29f4adb009389ab27947613ea0f5e1b27e08fe2"
+  },
+  "model_id": "distilbert/distilbert-base-uncased",
+  "model_revision": "12040accade4e8a0f71eabdb258fecc2e7e948be",
+  "labels": [
+    "Checking or savings account",
+    "Credit card",
+    "Credit reporting or other personal consumer reports",
+    "Debt collection",
+    "Debt or credit management",
+    "Money transfer, virtual currency, or money service",
+    "Mortgage",
+    "Payday loan, title loan, personal loan, or advance loan",
+    "Prepaid card",
+    "Student loan",
+    "Vehicle loan or lease"
+  ],
+  "random_state": 42,
+  "epochs": 3,
+  "train_batch_size": 6,
+  "eval_batch_size": 8,
+  "gradient_accumulation_steps": 2,
+  "learning_rate": 2e-05,
+  "weight_decay": 0.01,
+  "warmup_ratio": 0.1,
+  "max_token_length": 512,
+  "class_weighting": "balanced cross-entropy from v3 train labels",
+  "early_stopping_patience": 2,
+  "gradient_checkpointing": true,
+  "mixed_precision": "fp16",
+  "optimizer": "adamw_torch"
+}
