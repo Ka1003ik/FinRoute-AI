@@ -1,7 +1,7 @@
 {
   "best_global_step": 24225,
   "best_metric": 0.7866217266686182,
-  "best_model_checkpoint": "C:\\Users\\ka100\\OneDrive\\Desktop\\FinRoute AI\\models\\transformer\\distilbert_v3_checkpoints\\checkpoint-24225",
+  "best_model_checkpoint": null,
   "epoch": 3.0,
   "eval_steps": 500,
   "global_step": 24225,
@@ -944,5 +944,6 @@
   "total_flos": 3.4298763659010816e+16,
   "train_batch_size": 6,
   "trial_name": null,
-  "trial_params": null
+  "trial_params": null,
+  "best_model_checkpoint_note": "Selected checkpoint: checkpoint-24225. Checkpoint files were removed after exporting the final model."
 }

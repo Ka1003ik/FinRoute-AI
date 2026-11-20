@@ -2,7 +2,7 @@
   "project": "FinRoute AI",
   "dataset_version": "v3",
   "experiment": "final_distilbert_test_evaluation",
-  "model_directory": "C:\\Users\\ka100\\OneDrive\\Desktop\\FinRoute AI\\models\\transformer\\distilbert_product_classifier_v3",
+  "model_directory": "models/transformer/distilbert_product_classifier_v3",
   "test_rows_evaluated": 12112,
   "product_categories": [
     "Checking or savings account",
@@ -122,7 +122,7 @@
     "test_hash_verified_before_and_after_evaluation": true
   },
   "artifacts": {
-    "test_report": "C:\\Users\\ka100\\OneDrive\\Desktop\\FinRoute AI\\outputs\\experiments\\v3\\distilbert\\test.json",
-    "test_confusion_matrix": "C:\\Users\\ka100\\OneDrive\\Desktop\\FinRoute AI\\outputs\\experiments\\v3\\distilbert\\test_confusion.csv"
+    "test_report": "outputs/experiments/v3/distilbert/test.json",
+    "test_confusion_matrix": "outputs/experiments/v3/distilbert/test_confusion.csv"
   }
 }
